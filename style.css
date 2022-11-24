@@ -17,6 +17,7 @@ body {
     justify-content: center;
     font-family: 'Red Hat Display', sans-serif;
     background-color: #f5f7ff;
+    padding: 1rem;
 }
 
 /* CARD */
@@ -39,7 +40,7 @@ body {
 /* DESCRICAO */
 .cardBox__descricao {
     display: flex;
-    padding: 3rem;
+    padding: 1.5rem;
     flex-direction: column;
     gap: 1.3rem;
 }
@@ -63,15 +64,22 @@ body {
     background-color:  #f5f7ff;
     padding: 1rem;
     border-radius: 10px;
+    justify-content: space-between;
 }
-
-.cardBox__informacoes img {}
 
 .cardBox__planoAnual {
     display: flex;
-    flex-direction: column;
     gap: 0.2rem;
-    margin: 0 4rem 0 1rem;
+}
+
+.cardBox__planoAnual img {
+    width: 100%;
+    margin-right: 1rem;
+}
+
+.cardBox__precos {
+    display: flex;
+    flex-direction: column;
 }
 
 .planoAnual__tituloPlano {
@@ -79,7 +87,7 @@ body {
     font-weight: 700;
 }
 
-.planoAnual__preco {
+.cardBox__preco {
     color: #7280a7;
     font-weight: 600;
     font-size: 1em;
@@ -90,6 +98,19 @@ body {
     font-weight: 700;
 }
 
-.cardBox__botaoProceed {}
+.cardBox__botaoProceed {
+    background-color: #3829e0;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1em;
+    box-shadow: 1px 7px 8px #00000057;
+}
 
-.cardBox__cancel {}
+.cardBox__cancel {
+    color: #7280a7;
+    font-weight: 600;
+    font-size: 1em;
+}
