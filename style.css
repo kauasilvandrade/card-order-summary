@@ -130,10 +130,8 @@ body {
     color: #1f2f56;
 }
 
-@media screen and (orientation: landscape) {
-
-    body {
+@media screen and (orientation: portrait) {
+    .cardBox__descricao {
         height: auto;
     }
-
 }
