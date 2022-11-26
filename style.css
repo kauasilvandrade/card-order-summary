@@ -131,7 +131,7 @@ body {
 }
 
 @media screen and (orientation: portrait) {
-    .cardBox__descricao {
+    body {
         height: auto;
     }
 }
