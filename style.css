@@ -69,17 +69,15 @@ body {
 
 .cardBox__planoAnual {
     display: flex;
-    gap: 0.2rem;
+    gap: 1rem;
 }
 
-.cardBox__planoAnual img {
-    width: 100%;
-    margin-right: 1rem;
-}
+.cardBox__planoAnual img {}
 
 .cardBox__precos {
     display: flex;
     flex-direction: column;
+    max-width: 90px;
 }
 
 .planoAnual__tituloPlano {
