@@ -40,7 +40,7 @@ body {
 /* DESCRICAO */
 .cardBox__descricao {
     display: flex;
-    padding: 1.5rem;
+    padding: 2.5rem;
     flex-direction: column;
     gap: 1.3rem;
 }
