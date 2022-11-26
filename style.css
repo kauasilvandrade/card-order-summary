@@ -130,8 +130,3 @@ body {
     color: #1f2f56;
 }
 
-@media screen and (orientation: portrait) {
-    body {
-        height: auto;
-    }
-}
