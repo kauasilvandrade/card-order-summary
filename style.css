@@ -40,7 +40,7 @@ body {
 /* DESCRICAO */
 .cardBox__descricao {
     display: flex;
-    padding: 1.5rem;
+    padding: 2.5rem;
     flex-direction: column;
     gap: 1.3rem;
 }
@@ -69,17 +69,15 @@ body {
 
 .cardBox__planoAnual {
     display: flex;
-    gap: 0.2rem;
+    gap: 1rem;
 }
 
-.cardBox__planoAnual img {
-    width: 100%;
-    margin-right: 1rem;
-}
+.cardBox__planoAnual img {}
 
 .cardBox__precos {
     display: flex;
     flex-direction: column;
+    max-width: 90px;
 }
 
 .planoAnual__tituloPlano {
@@ -131,3 +129,4 @@ body {
 .cardBox__cancel:hover {
     color: #1f2f56;
 }
+
