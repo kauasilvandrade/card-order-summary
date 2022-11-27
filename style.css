@@ -94,13 +94,13 @@ body {
 }
 
 .cardBox__informacoes a {
-    color: #3829e0;
+    color: #38299c;
     font-weight: 700;
     transition: .5s;
 }
 
 .cardBox__informacoes a:hover {
-    color: #3829e09c;
+    color: #3829e0;
     text-decoration: none;
 }
 
